@@ -384,8 +384,8 @@ function updateRound() {
   //Add new round to table
   updateRoundInTable(GlobalRoundIndex);
   //Transition back to mode page
-  roundUpdatedMsg.textContent = "Round Updated!";
-  roundUpdated.classList.remove("hidden");
+  GlobalRoundUpdatedMsg.textContent = "Round Updated!";
+  GlobalRoundUpdated.classList.remove("hidden");
   transitionFromDialog(GlobalRoundsModeDialog);
 }
 /*************************************************************************
